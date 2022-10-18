@@ -11,29 +11,3 @@ CREATE TABLE animals (
     PRIMARY KEY (id)
 );
 
--- WITH cte AS (
---     SELECT 
---         id, 
---         name, 
---         date_of_birth, 
---         escape_attempts,
---         neutered,
---         weight_kg,
---         ROW_NUMBER() OVER (
---             PARTITION BY 
---                 name, 
---                 date_of_birth, 
---                 escape_attempts,
---                 neutered,
---                 weight_kg
---             ORDER BY 
---             name, 
---                 date_of_birth, 
---                 escape_attempts,
---                 neutered,
---                 weight_kg
---         ) AS row_num
---     FROM animals
--- )
--- DELETE FROM cte
--- WHERE row_num > 1;
