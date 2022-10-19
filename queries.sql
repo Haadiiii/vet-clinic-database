@@ -36,6 +36,10 @@ rollback to luffy;
 UPDATE animals SET weight_kg = weight_kg * -1 where weight_kg < 0;
 commit;
 
+--================== QUERIES =========================
+
+                   -- DAY 2
+
 SELECT count (*) AS animalCount from animals;
 SELECT * from animals where escape_attempts < 1;
 SELECT cast(avg (weight_kg) as DECIMAL(5,2)) as averageWeight from animals;
@@ -43,6 +47,7 @@ SELECT name, max(escape_attempts) from animals where neutered = true or neutered
 SELECT max(weight_kg) as maxWeight, min(weight_kg) as minWeight from animals;
 SELECT cast(avg(escape_attempts) as DECIMAL(5,2)) as averageEscapeAttempts from animals WHERE EXTRACT(year from date_of_birth) between 1990 AND 2000;
 
+                   -- DAY 3
 
 -- animals belong to Melody Pond
 SELECT animals.name from animals join owners on animals.owners_id = owners.id where owners.full_name = 'Melody Pond';
