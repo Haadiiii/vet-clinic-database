@@ -51,28 +51,3 @@ INSERT INTO visits ( date_of_visit, animal_id, vet_id) VALUES ('2021-01-11', 10,
 savepoint davonUltra;
 commit;
 
-
-  
-
-    -- Agumon visited William Tatcher on May 24th, 2020.
-    -- Agumon visited Stephanie Mendez on Jul 22th, 2020.
-    -- Gabumon visited Jack Harkness on Feb 2nd, 2021.
-    -- Pikachu visited Maisy Smith on Jan 5th, 2020.
-    -- Pikachu visited Maisy Smith on Mar 8th, 2020.
-    -- Pikachu visited Maisy Smith on May 14th, 2020.
-    -- Devimon visited Stephanie Mendez on May 4th, 2021.
-    -- Charmander visited Jack Harkness on Feb 24th, 2021.
-    -- Plantmon visited Maisy Smith on Dec 21st, 2019.
-    -- Plantmon visited William Tatcher on Aug 10th, 2020.
-    -- Plantmon visited Maisy Smith on Apr 7th, 2021.
-    -- Squirtle visited Stephanie Mendez on Sep 29th, 2019.
-    -- Angemon visited Jack Harkness on Oct 3rd, 2020.
-    -- Angemon visited Jack Harkness on Nov 4th, 2020.
-    -- Boarmon visited Maisy Smith on Jan 24th, 2019.
-    -- Boarmon visited Maisy Smith on May 15th, 2019.
-    -- Boarmon visited Maisy Smith on Feb 27th, 2020.
-    -- Boarmon visited Maisy Smith on Aug 3rd, 2020.
-    -- Blossom visited Stephanie Mendez on May 24th, 2020.
-    -- Blossom visited William Tatcher on Jan 11th, 2021.
-
-
