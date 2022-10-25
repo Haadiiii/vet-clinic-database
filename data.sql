@@ -48,6 +48,8 @@ INSERT INTO visits ( date_of_visit, animal_id, vet_id) VALUES ('2020-02-27', 9, 
 INSERT INTO visits ( date_of_visit, animal_id, vet_id) VALUES ('2020-08-23', 9, 2);
 INSERT INTO visits ( date_of_visit, animal_id, vet_id) VALUES ('2020-05-24', 10, 3);
 INSERT INTO visits ( date_of_visit, animal_id, vet_id) VALUES ('2021-01-11', 10, 1);
+
 savepoint davonUltra;
+-- Update commited transaction to make sure it persists
 commit;
 

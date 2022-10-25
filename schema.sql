@@ -62,9 +62,11 @@ CREATE TABLE vets (
 drop TABLE if exists visits CASCADE;
 
 CREATE TABLE visits (
+    id INT GENERATED ALWAYS AS IDENTITY,
     vet_id INT,
     animal_id INT,
     date_of_visit DATE,
+    PRIMARY KEY (id, animal_id, vet_id, date_of_visit),
     CONSTRAINT animal
      FOREIGN KEY (animal_id)
       REFERENCES animals(id),
