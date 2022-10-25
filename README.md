@@ -1,7 +1,22 @@
-# curriculum-databases-projects-template
+# Vet-Clinic-Database
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+
+This database is of an imaginary Vet who wanted an easier way to manage his data. So far at this milestone I have been able to:
+- Create the Vet store database
+- Create the starter table(animals) which has information about 4 animals
+- Created owners table which has 6 owners
+- Created the species table which has 2 species
+- Created the Visits table which is a join table for animals and vets table
+- Created the specializations table hich is a join table for species and vets tables
+- Write queries to aid in performing certain functionalities eg Query the db to show all the info about all animals.
+- Made use of BEGIN, SAVEPOINT, ROLLBACK and COMMIT transactions which help to avoid a situation where you might accidentally delete records you can revert to the original state.
+- Made use of the GROUP BY clause and aggregate functions to write complex queries to request filtered information from the database.
+- Made use of Primary and Foreign key concepts to link multiple tables
+- Made use os JOIN to work with multiple tables to retireve complex queries to get customixed information about a specific table
+
+
+## ERB Diagram
+![VET_DB](https://user-images.githubusercontent.com/104095543/197780218-b07c2f9c-c3f0-4758-8a57-b853f73dd771.jpeg)
 
 
 ## Getting Started
@@ -15,17 +30,16 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Authors
 
-👤 **Author1**
+👤 **Haamid Ali**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Haadiiii](https://github.com/Haadiiii)
+- Twitter: [@HaaDiii_99](https://twitter.com/HaaDiii_99)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hamid-ali-01a872213/)
 
-👤 **Author2**
+👤 **soulemanou kunchiefuh babanou**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [soulemanou](https://github.com/soulemanou-software)
+- LinkedIn: [linkedin](https://www.linkedin.com/in/soulemanou-kunchiefuh-babanou)
 
 👤 **Kwaleyela Musilizo Ikafa**
 
