@@ -27,6 +27,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
+👤 **Kwaleyela Musilizo Ikafa**
+
+- GitHub: [@Kwaleyela-Ikafa](https://github.com/Kwaleyela-Ikafa)
+- Twitter: [@K_Ikafa](https://twitter.com/K_Ikafa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kwaleyela-musilizo-ikafa/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
